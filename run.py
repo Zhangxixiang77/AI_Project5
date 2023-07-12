@@ -124,6 +124,11 @@ if __name__ == '__main__':
                         type=int, default=10, help='迭代次数')
     parser.add_argument('-batch_size', '--batch_size',
                         type=int, default=4, help='Batch size')
+    
+    parser.add_argument("--img_size", "--img_size",
+                        type=int, default=384, help='image size')
+    parser.add_argument("--text_size", "--text_size",
+                        type=int, default=64, help='text size')
 
     args = parser.parse_args()
 
