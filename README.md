@@ -74,7 +74,6 @@ python run.py --do_test
 --test_file: 测试集文件的路径。
 --pretrained_model: 预训练模型的选择。
 --lr: 学习率的设置，默认为 1e-5。
---dropout: Dropout 的比率，默认为 0.0。
 --epochs: 迭代次数，默认为 10。
 --batch_size: 批处理大小，默认为 4
 ...
@@ -89,12 +88,10 @@ python run.py --do_test
 | Multimodal_Model                                                    | ACC        |
 | :------------------------------------------------------- | :--------- |
 | 直接拼接                                 | 0.7140    |
-| 多头自注意力                                   | 0. 6172    |
+| 多头自注意力                                   | 0.6172    |
 | Transformer Encoder | 0.7302 |
 
 ##### 消融实验结果
 
-|  Text_only   | 0.7098 |
-| :-------: | :----: |
-|  Img_only | 0.6517 |
+Text_only：0.7098    Img_only：0.6517 
 
