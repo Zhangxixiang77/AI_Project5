@@ -96,3 +96,8 @@ python run.py --do_test
 Text_only：0.7098   
 Img_only：0.6517 
 
+## 参考
+https://arxiv.org/abs/2111.02387
+https://github.com/zdou0830/METER
+
+
