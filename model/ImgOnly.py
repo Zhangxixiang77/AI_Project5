@@ -1,11 +1,11 @@
 from torch import nn
-from torchvision.models.convnext import convnext_base, ConvNeXt_Base_Weights
+from torchvision.models import convnext
 
 
 class ImgOnly(nn.Module):
     def __init__(self, args):
         super(ImgOnly, self).__init__()
-        self.encoder = convnext_base(weights=ConvNeXt_Base_Weights.DEFAULT)
+        self.encoder = convnext.convnext_base(weights=convnext.ConvNeXt_Base_Weights.DEFAULT)
         for param in self.encoder.parameters():
             param.requires_grad = True
 
