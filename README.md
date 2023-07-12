@@ -93,5 +93,6 @@ python run.py --do_test
 
 ##### 消融实验结果
 
-Text_only：0.7098    Img_only：0.6517 
+Text_only：0.7098   
+Img_only：0.6517 
 
