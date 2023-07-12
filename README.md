@@ -15,22 +15,22 @@ pip install -r requirements.txt
 ## 项目结构
 
 ```py
-|-- dataset     #存放实验数据
-    |-- data #原始数据（仅样例）
+|-- dataset  #存放实验数据
+    |-- data  #原始数据（仅样例）
     |-- dev.json  #处理后的验证集
-    |-- test_without_label.txt #无标签的测试数据
-    |-- test.json #处理后的测试集
-    |-- train.json #处理后的训练集
-|-- model #模型
+    |-- test_without_label.txt  #无标签的测试数据
+    |-- test.json  #处理后的测试集
+    |-- train.json  #处理后的训练集
+|-- model  #模型
     |-- ImageOnly.py  #图像模块
-    |-- MultiModal.py #多模态模型
-    |-- TextOnly.py   #文本模块
-    |-- utils.py   #工具
-|-- data_processing.py #数据处理
-|-- requirements.txt #环境配置
-|-- run.py #主函数
-|-- test_with_label.txt #预测结果文件
-|-- README.md # 该文件
+    |-- MultiModal.py  #多模态模型
+    |-- TextOnly.py  #文本模块
+    |-- utils.py  #工具
+|-- data_processing.py  #数据处理
+|-- requirements.txt  #环境配置
+|-- run.py  #主函数
+|-- test_with_label.txt  #预测结果文件
+|-- README.md  #该文件
 ```
 
 
@@ -99,5 +99,5 @@ Img_only：0.6517
 ## 参考
 https://arxiv.org/abs/2111.02387    
 https://github.com/zdou0830/METER
-
+https://arxiv.org/abs/2201.03545
 
