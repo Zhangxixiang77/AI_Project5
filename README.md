@@ -12,7 +12,7 @@ pip install -r requirements.txt
 
 
 
-## 文件内容介绍
+## 项目结构
 
 ```py
 |-- dataset     #存放实验数据
